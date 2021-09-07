@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guess Game</title>
+</head>
+<body>
+	<div class="container">
+	<p style="font-size:20px">Welcome to Guess The Game</p>
+	<p>Guess a number between 1-100</p>
+	<p>And you'll have 8 guesses Attempt in total</p>
+	<input type="number" name="" placeholder="" id="user_Guess"><br>
+	<input type="button"  name="" placeholder=""  onclick="buttonclick()" value="Guess" id="inputed">
+	<p id="info1"></p>
+	<p id="info2">Number of Guesses left : <span id="numberOfGuess">8</span></p>
+	<p id="info3">Your Guessed numbers:<span id="guessedNumber"></span></p>
+	<button onClick="history.go(0);" style="display: none;" id="replay">Replay</button>
+	</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
